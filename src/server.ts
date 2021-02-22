@@ -2,14 +2,6 @@ import express, { response } from "express";
 
 const app = express();
 
-/**
- * GET => Buscar
- * POST => Salvar
- * PUT => Alterar
- * DELETE => Deletar
- * PATCH => Alteração específica
- */
-
  app.get("/", (req, res) => {
      return res.json({message: "Hello World - NLW4"});
  });
